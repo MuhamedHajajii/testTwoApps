@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:app:first":"ng build --project=test01 --configuration=production",
+    "build:app:second":"ng build --project=test02 --configuration=production"
   },
   "prettier": {
     "overrides": [
